@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/modal.css">
+
+    <link rel="stylesheet" href="../css/main-media.css">
+
+    <script src="../js/shadow.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- MODAL WINDOW -->
+
+        <div class="modal">
+            <div class="section-content-modal">
+                <div class="create-block-cap-modal">
+                    <span>Подзадача</span>
+                    <div class="close-button-mobile">
+                        <img class="close-icon-mobile" src="../icons/close.svg" alt="">
+                    </div>
+                    <div class="save-block-cap-modal">
+                        <div class="save-button">Сохранить</div>
+                        <div class="save-exit-button">Отменить</div>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div class="main-block">
+                        <div class="head-text">
+                            <span class="span-text">Новая запись</span>
+                        </div>
+                        <div class="section-forms">
+                            <div class="form-items-modal">
+                                <div class="form-item">
+                                    <span class="spec-red"><p class="red">*</p>Тема</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                                <div class="form-item">
+                                    <span>Статус</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-items-modal">
+                                <div class="form-item">
+                                    <span>Описание</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                                <div class="form-item">
+                                    <span>Продукт</span>
+                                    <div class="special-form">
+                                        <input type="text" class="input-text" placeholder="">
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-items-modal">
+                                <div class="form-item">
+                                    <span class="spec-red"><p class="red">*</p>Рабочие заметки</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                                <div class="form-item">
+                                    <span>Приоритет</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-items-modal">
+                                <div class="form-item">
+                                    <span>Ответственный</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="input-item">
+                                                <span>Константин Константинопольский</span>
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/plus.svg" alt="">
+                                        </div>
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <span>Группа</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="input-item">
+                                               <span>Support Group</span>
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/plus.svg" alt="">
+                                        </div>
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-items-modal">
+                                <div class="form-item">
+                                    <span>Комментарии</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-items-modal">
+                                <div class="form-item">
+                                    <span>Согласующие</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="input-item">
+                                                <span>Андрей Пивоваров</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Максим Галактионов</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Алла Лин</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Константин Константинопольский Константинович</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Игорь Иванченко</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Юлия Эйчаровна</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Артём Подпрыгайко-Саппортов</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Илья Вазнец</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Михаил Вортенов</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Наталья Нашевна</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Евгения Итамовна</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Алиса Киральчук</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/plus.svg" alt="">
+                                        </div>
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-items-modal">
+                                <div class="form-item">
+                                    <span>Когда открыто</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/calendar.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <span>Когда создано</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="calendar-item">
+                                                22.10.2024
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/calendar.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-items-modal">
+                                <div class="form-item">
+                                    <span>Кем открыто</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="input-item">
+                                                <span>Андрей Пивоваров</span>
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/plus.svg" alt="">
+                                        </div>
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <span>Кем создано</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="input-item">
+                                                <span>Андрей Пивоваров</span>
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/plus.svg" alt="">
+                                        </div>
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="save-block-cap-mobile">
+                            <div class="save-button">Сохранить</div>
+                            <div class="save-exit-button-mobile">Отменить</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+
+        <div class="container-header">
+            <div class="logo-header">
+                <img class="header-logo" src="../images/Logo.svg" alt="">
+            </div>
+            <img class="sidebar-icon mobile" src="../icons/task-mobile.svg" alt="">
+            <div class="section-header">
+                <div class="search-header">
+                    <input type="text" class="search-input" placeholder="Поиск">
+                    <img class="search-icon" src="../icons/search.svg" alt="">
+                </div>
+                <div class="user-header">
+                    <img class="user-icon" src="../images/user.png" alt="">
+                    <span class="name-user">Максим Галактионов</span>
+                </div>
+                <div class="settings-header">
+                    <img class="settings-icon" src="../icons/settings.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container-main">
+            <div class="sidebar">
+                <div class="section-sidebar">
+                    <div class="sidebar-items">
+                        <div class="sidebar-item">
+                            <img class="sidebar-icon" src="../icons/task.svg" alt="">
+                        </div>
+                        <div class="sidebar-item">
+                            <img class="sidebar-icon" src="../icons/star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="main-parametrs-block">
+                    <div class="search-cap">
+                        <div class="search-input-cap">
+                            <input type="text" class="search-input" placeholder="Поиск по меню">
+                            <img class="search-icon" src="../icons/filter.svg" alt="">
+                        </div>
+                        <div class="pin-block">
+                            <img class="pin-icon" src="../icons/pin.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="main-parametrs">
+                        <div class="parametrs-items">
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Моя работа</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Структура портала</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Личное расписание</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Отсутствие на рабочем месте</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Портфель услуг</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Дашборды</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Доски задач</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Обращения</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>События</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Инциденты</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Проблемы</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Настройка каталогов</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Запросы на обслуживание</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Запросы на изменение</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Управление конфигурациями</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Управление уровнем услуг</span>
+                            </div>
+                            <div class="parametrs-item">
+                                <img class="arrow-icon" src="../icons/arrow.svg" alt="">
+                                <span>Настройка соответствий</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content">
+                <div class="create-block-cap-mobile">
+                    <span>ПОДЗАДАЧА</span>
+                    <div class="create-button">Создать</div>
+                </div>
+                <div class="cap-content">
+                    <div class="create-cap">
+                        <div id="create-block" class="create-block-cap desktop">
+                            <span>Подзадача</span>
+                            <div class="create-button">Создать</div>
+                        </div>
+                        <div class="save-block-cap">
+                            <div class="save-button">Сохранить</div>
+                            <div class="save-exit-button">Сохранить и выйти</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <div class="main-block">
+                        <div class="head-text">
+                            <span class="span-text">STSK0004783 На инциденте, запросе, проблеме, в статусе закрыто
+                                некоторые поля остаются редактируемыми для агента если он Caller</span>
+                        </div>
+                        <div class="section-forms">
+                            <div class="form-items">
+                                <div class="form-item">
+                                    <span class="spec-red"><p class="red">*</p>Тема</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                                <div class="form-item">
+                                    <span>Статус</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-items">
+                                <div class="form-item">
+                                    <span>Описание</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                                <div class="form-item">
+                                    <span>Продукт</span>
+                                    <div class="special-form">
+                                        <input type="text" class="input-text" placeholder="">
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-items">
+                                <div class="form-item">
+                                    <span class="spec-red"><p class="red">*</p>Рабочие заметки</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                                <div class="form-item">
+                                    <span>Приоритет</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-items">
+                                <div class="form-item">
+                                    <span>Ответственный</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="input-item">
+                                                <span>Константин Константинопольский</span>
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/plus.svg" alt="">
+                                        </div>
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <span>Группа</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="input-item">
+                                               <span>Support Group</span>
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/plus.svg" alt="">
+                                        </div>
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-items">
+                                <div class="form-item">
+                                    <span>Комментарии</span>
+                                    <input type="text" class="input-text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-items">
+                                <div class="form-item">
+                                    <span>Согласующие</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="input-item">
+                                                <span>Андрей Пивоваров</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Максим Галактионов</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Алла Лин</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Константин Константинопольский Константинович</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Игорь Иванченко</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Юлия Эйчаровна</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Артём Подпрыгайко-Саппортов</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Илья Вазнец</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Михаил Вортенов</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Наталья Нашевна</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Евгения Итамовна</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <div class="input-item">
+                                                <span>Алиса Киральчук</span>
+                                                <img class="input-item-delete" src="../icons/close.svg" alt="">
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/plus.svg" alt="">
+                                        </div>
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-items">
+                                <div class="form-item">
+                                    <span>Когда открыто</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/calendar.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <span>Когда создано</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="calendar-item">
+                                                22.10.2024
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/calendar.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-items">
+                                <div class="form-item">
+                                    <span>Кем открыто</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="input-item">
+                                                <span>Андрей Пивоваров</span>
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/plus.svg" alt="">
+                                        </div>
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <span>Кем создано</span>
+                                    <div class="special-form">
+                                        <div class="input-items">
+                                            <div class="input-item">
+                                                <span>Андрей Пивоваров</span>
+                                            </div>
+                                            <img class="circle-close" src="../icons/circle-close.svg" alt="">
+                                        </div>
+                                        <div class="plus-box">
+                                            <img class="plus-button-icon" src="../icons/plus.svg" alt="">
+                                        </div>
+                                        <div class="search-box">
+                                            <img class="search-button-icon" src="../icons/search-button.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/modal.js"></script>
+</body>
+
+</html>
